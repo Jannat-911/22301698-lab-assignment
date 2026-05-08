@@ -9,7 +9,7 @@
 
 
 /* The following code is added by haoda le and netid hxl180046
-system call, settickets
+system call, settickets.
 */
 int sys_settickets(void)
 {
