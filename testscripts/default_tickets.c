@@ -14,7 +14,6 @@ main(int argc, char *argv[])
    int pid = getpid();
    int defaulttickets = 0;
    check(getpinfo(&st) == 0, "getpinfo");
-
    printf(1, "\n **** PInfo **** \n");
    int i;
    for(i = 0; i < NPROC; i++) {
