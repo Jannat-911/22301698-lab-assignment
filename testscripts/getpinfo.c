@@ -6,7 +6,6 @@
 #define check(exp, msg) if(exp) {} else {\
    printf(1, "%s:%d check (" #exp ") failed: %s\n", __FILE__, __LINE__, msg);\
    exit();}
-
 int
 main(int argc, char *argv[])
 {
