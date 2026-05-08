@@ -8,6 +8,7 @@
 #define rounds 250
 #define tol 150
 
+
 void spin()
 {
 	int i = 0;
