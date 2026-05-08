@@ -6,7 +6,6 @@
    printf(1, "%s:%d check (" #exp ") failed: %s\n", __FILE__, __LINE__, msg);\
    exit();}
 #define PROC 7
-
 void spin()
 {
 	int i = 0;
