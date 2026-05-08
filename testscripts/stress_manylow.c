@@ -7,6 +7,7 @@
    exit();}
 #define tol 7
 
+
 void spin()
 {
 	int i = 0;
